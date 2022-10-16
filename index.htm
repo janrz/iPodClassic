@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>iPod</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="iPod">
+		<div id="topHalf" class="half">
+			<div id="screen" class="container">
+				<div id="header">
+					<span id="headerText">iPod</span>
+					<div id="playStatus" class="playing"></div>
+					<div id="battery"></div>
+				</div>
+				<ul class="menu">
+					<li id="music" class="menuItem active">
+						<a href="#">Music</a>
+					</li>
+					<li id="videos" class="menuItem">
+						<a href="#">Videos</a>
+					</li>
+					<li id="photos" class="menuItem">
+						<a href="#">Photos</a>
+					</li>
+					<li id="podcasts" class="menuItem"><a href="#">Podcasts</a></li>
+					<li id="extras" class="menuItem"><a href="#">Extras</a></li>
+					<li id="settings" class="menuItem"><a href="#">Settings</a></li>
+					<li id="shuffle" class="menuItem"><a href="#">Shuffle Songs</a></li>
+					<li id="nowPlaying" class="menuItem"><a href="#">Now Playing</a></li>
+				</ul>
+				<div id="screenOverlay"></div>
+				<!-- <input type="file" id="input" multiple="multiple"> -->
+			</div>
+
+		</div>
+		<div id="bottomHalf" class="half">
+			<div id="wheelContainer" class="container">
+				<div id="wheel">
+					<div id="play" class="button wheelButton">play</div>
+					<div id="previous" class="button wheelButton"></div>
+					<div id="next" class="button wheelButton"></div>
+					<div id="menu" class="button wheelButton"></div>
+					<div id="select" class="button"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+</body>
+</html>
